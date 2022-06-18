@@ -1,4 +1,3 @@
-# Hello World
 window:
   dimensions:
     columns: 80
@@ -26,9 +25,9 @@ scrolling:
 # Font configuration
 font:
   normal:
-    family: Caskaydia Cove Nerd Font
+    family: JetBrains Mono
     style: Regular
-  size: 12.0
+  size: 13.0
   offset:
     x: 0
     y: 0
@@ -331,5 +330,4 @@ colors:
     cyan:    '0xada0d3'
     white:   '0xd2d4de'
 
-    #custom_cursor_colors: true
 draw_bold_text_with_bright_colors: false
