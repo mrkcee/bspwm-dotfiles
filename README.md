@@ -14,5 +14,5 @@ Heavily based/inspired from [N3k0Ch4n's awm configs](https://github.com/N3k0Ch4n
 
 ### todo
 -  [ ] notification capability
--  [ ] power menu
+-  [x] power menu
 
