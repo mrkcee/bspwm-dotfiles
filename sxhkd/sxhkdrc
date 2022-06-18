@@ -7,7 +7,7 @@ super + Return
 	alacritty	
 
 # program launcher
-super + p 
+super + space 
 	rofi -modi drun -show drun -show-icons -width 18
 
 # make sxhkd reload its configuration files:
