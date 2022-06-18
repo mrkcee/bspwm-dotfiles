@@ -1,7 +1,7 @@
 #!/bin/fish
 
 echo 'Backing up bspwm...'
-if test -d ./bspwmm
+if test -d ./bspwm
   rm -rf ./bspwm
 end
 cp -r ~/.config/bspwm .

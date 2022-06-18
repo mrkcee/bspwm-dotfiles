@@ -8,9 +8,9 @@ Heavily based/inspired from N3k0Ch4n's awm configs (https://github.com/N3k0Ch4n/
 - **Terminal**: alacritty
 - **Bar**: polybar
 - **Compositor**: picom
-- **Hotkey**: sxkhd
+- **Hotkey**: sxhkd
 - **Launcher**: rofi
-- **Font**: CaskaydiaCove Nerd Font
+- **Fonts*: CaskaydiaCove Nerd Font, JetBrains Mono
 
 ### todo
 -  [ ] notification capability
