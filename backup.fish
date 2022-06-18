@@ -36,4 +36,10 @@ if test -d ./rofi
 end
 cp -r ~/.config/rofi .
 
+echo 'Backing up dunst...'
+if test -d ./dunst
+  rm -rf ./dunst
+end
+cp -r ~/.config/dunst .
+
 print_success "Config files have been backed up successfully."

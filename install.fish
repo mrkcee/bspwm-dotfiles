@@ -1,6 +1,5 @@
 #!/bin/fish
 
-echo 'Configs: '
 echo 'Installing bspwm...'
 if test -d ~/.config/bspwm
   rm -rf ~/.config/bspwm
@@ -36,5 +35,11 @@ if test -d ~/.config/rofi
   rm -rf ~/.config/rofi
 end
 cp -r ./rofi ~/.config/rofi
+
+echo 'Installing dunst...'
+if test -d ~/.config/dunst
+  rm -rf ~/.config/dunst
+end
+cp -r ./dunst ~/.config/dunst
 
 print_success "Config files have been installed successfully."

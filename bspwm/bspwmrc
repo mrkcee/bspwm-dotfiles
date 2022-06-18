@@ -31,5 +31,6 @@ bspc config external_rules_command $HOME/.config/bspwm/external_rules.fish
 xsetroot -cursor_name left_ptr
 
 feh --bg-scale $HOME/Downloads/aisberg-voda-art-ostrov-led-arktika-krasota.jpg
-picom --experimental-backends &
+pgrep -x picom > /dev/null || picom --experimental-backends &
+pgrep -x dunst > /dev/null || dunst &
 $HOME/.config/polybar/launch.sh
