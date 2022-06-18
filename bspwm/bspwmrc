@@ -22,12 +22,11 @@ bspc rule -a Ungoogled-chromium desktop='^2' state=tiled follow=on focus=on
 bspc rule -a Firefox desktop='^2' state=tiled follow=on focus=on
 
 bspc rule -a Soffice desktop='^3' state=tiled follow=on focus=on
+bspc rule -a Apostrophe desktop='^3' state=tiled follow=on focus=on
 
 bspc rule -a Steam desktop='^4' follow=on focus=on state=floating
 
-#bspc rule -a Nextcloud desktop='^5' state=floating
-#bspc rule -a KeePassXC desktop='^5' state=floating
-#bspc rule -a Pcmanfm desktop='^5' state=floating
+bspc config external_rules_command $HOME/.config/bspwm/external_rules.fish
 
 xsetroot -cursor_name left_ptr
 
