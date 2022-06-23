@@ -26,7 +26,7 @@ bspc rule -a Apostrophe desktop='^3' state=tiled follow=on focus=on
 
 bspc rule -a Steam desktop='^4' follow=on focus=on state=floating
 
-bspc config external_rules_command $HOME/.config/bspwm/external_rules.fish
+bspc config external_rules_command $HOME/.config/bspwm/external_rules.zsh
 
 xsetroot -cursor_name left_ptr
 

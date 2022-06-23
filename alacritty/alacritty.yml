@@ -42,10 +42,10 @@ dynamic_title: true
 cursor:
   style: Block
 
-shell:
-  program: /bin/fish
-  #args:
-  #  - -l
+#shell:
+# program: /bin/zsh
+#  args:
+#    - -i
 
 #working_directory: None
 
