@@ -1,5 +1,7 @@
 #! /bin/sh
 
+export DESKTOP_SESSION=bspwm
+
 pgrep -x sxhkd > /dev/null || sxhkd &
 
 #bspc monitor -d I II III IV V VI
