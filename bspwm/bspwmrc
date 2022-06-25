@@ -26,7 +26,7 @@ bspc rule -a Firefox desktop='^2' state=tiled follow=on focus=on
 bspc rule -a Soffice desktop='^3' state=tiled follow=on focus=on
 bspc rule -a Apostrophe desktop='^3' state=tiled follow=on focus=on
 
-bspc rule -a Steam desktop='^4' follow=on focus=on state=floating
+bspc rule -a Steam:*:* desktop='^4' follow=on focus=on state=tiled
 
 bspc config external_rules_command $HOME/.config/bspwm/external_rules.zsh
 
