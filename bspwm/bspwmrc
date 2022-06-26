@@ -17,6 +17,7 @@ bspc config focused_border_color \#404B66
 bspc config normal_border_color \#0b151d
 
 bspc rule -a '*' desktop='^5' state=floating
+bspc rule -a Gcr-prompter state=floating
 
 bspc rule -a Alacritty desktop='^1' state=tiled follow=on focus=on
 
